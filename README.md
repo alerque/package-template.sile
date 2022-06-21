@@ -22,3 +22,10 @@ To create a package by hand:
 * Put your code in `classes/...` or `packages/...`
 * Setup the build function in your rockspec to install to a directory prefixed with `sile/...`
 
+To install a package from it’s source directory:
+
+```console
+$ luarocks --local make
+```
+
+Of course once it is published on LuaRocks.org it can be installed with `luarocks install <packagename>`.
